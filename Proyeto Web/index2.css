@@ -1,0 +1,56 @@
+.mainContainer{
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    display: block;
+    width: 40%;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(26, 19, 19);
+    border: transparent 2px solid;
+    border-radius: 20px;
+    contain: fill;
+    height: 90%;
+
+}
+
+.input{
+
+    width: 60%;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+
+.inputEmail{
+
+    width: calc(100% - 30px);
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.button{
+
+    width: 100px;        
+    margin-bottom: 20px;
+    background-color: darkred;
+    border: transparent 2px solid;
+    border-radius: 20px;
+    color: white;
+    height: 25px;
+
+}
